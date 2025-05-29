@@ -6,9 +6,6 @@ def calcular_expressao(expressao: str) -> str:
         expr = expressao.replace('x', '*').replace('X', '*')
         expr = expr.replace('÷', '/')
         expr = expr.replace('%', '*0.01')
-
-        # Regex para colocar parênteses após sqrt se não tiver
-        # Exemplo: sqrt9 -> sqrt(9)
         expr = re.sub(r'sqrt(\d+(\.\d+)?|\([^()]*\))', lambda m: f"sqrt({m.group(1).strip('()')})", expr)
 
         expr_sem_espaco = expr.replace(' ', '')
