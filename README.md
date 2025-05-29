@@ -4,8 +4,6 @@
 
 Esta aplicação foi desenvolvida para oferecer uma calculadora completa, funcional e moderna, com uma interface limpa, bonita e responsiva. Seu design minimalista e atualizado prioriza a experiência do usuário, com modos claro e escuro para maior conforto visual.
 
-🔗 [Acesse e utilize a calculadora diretamente no navegador]
-
 ---
 
 🛠️ **Tecnologias Utilizadas** 
